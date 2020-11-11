@@ -11,7 +11,12 @@ www.ElectricRCAircraftGuy.com
 # Instructions
 
 1. When you download or clone this repo, place it at the exact same level as the **eRCaGuy_hello_world** folder. 
-    - The data in this **eRCaGuy_hello_world_data** repo will then _automatically be used_ by the **eRCaGuy_hello_world** repo, because the **eRCaGuy_hello_world** repo will know the **eRCaGuy_hello_world_data** repo's relative path and location to it, and access it as needed. 
+    Example folder structure:
+
+        ~/dev/eRCaGuy_hello_world
+        ~/dev/eRCaGuy_hello_world_data
+
+    - The data in this **eRCaGuy_hello_world_data** repo will then _automatically be used_ by the **eRCaGuy_hello_world** repo, because the **eRCaGuy_hello_world** repo will know the **eRCaGuy_hello_world_data** repo's relative path and location to it, and access it as needed (ex: via symbolic links). 
     - This relative-location setup of two distinct repos is in lieu of using [git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
 
 
